@@ -1,80 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="initial-scale=1", width=device-width>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Evaluacion Final Fundamentos de HMTL ">
+    <meta name="keywords" content="HTML,Nextu,Evaluacion">
+    <meta name="author" content="Gonzalo Fuentealba">
     <title>Resumen Curricular</title>
 </head>
 <body>
+    <header>
+        <h1>
+            <svg>
+                <image xlink:href="../img/logo.svg" width="150px" height="50px"></image>
+            </svg>
+            Resumen Curricular
+        </h1>
+        <h2>Nombre:Gonzalo Fuentealba</h2>
+        <h3>Fecha de Nacimiento: 30 de Dic de 1970. Concepción. Chile</h3>
+        <br/>
+        <a href="../index.html">Ir a Inicio</a>
+        <a href="../enlaces/experiencia.html">Ir a Experiencia</a>
+    </header>
+    <h2>Educacion</h2>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culmino?</th>
+        </tr>
 
-<h1>
-    <svg>
-        <image xlink:href="../img/logo.svg" width="150px" height="50px"></image>
-    </svg>
-
-    Resumen Curricular
-</h1>
-<h2>Nombre:Gonzalo Fuentealba</h2>
-<h3>Nac.: 30 de Dic de 1970. Concepcion. Chile</h3>
-<br/>
-<a href="../index.html">Ir a Inicio</a>
-<a href="enlaces/experiencia.html">Ir a Experiencia</a>
-<h2>Educacion</h2>
-<table border="1">
-    <thead>
-    <tr>
-        <th>Año</th>
-        <th>Institución</th>
-        <th>Lugar</th>
-        <th>¿Culmino?</th>
-    </tr>
-
-    </thead>
-    <tbody>
-    <tr>
-        <td>1989</td>
-        <td>IP Diego Portales</td>
-        <td>Concepción</td>
-        <td>Si</td>
-    </tr>
-    <tr>
-        <td>1992</td>
-        <td>Universidad de Concepcion</td>
-        <td>Concepción</td>
-        <td>Si</td>
-    </tr>
-    <tr>
-        <td>1998</td>
-        <td>NextU</td>
-        <td>Concepción</td>
-        <td>No</td>
-    </tr>
-    </tbody>
-</table>
-<h3>Agregar Estudios</h3>
-<form>
-    <label for="cboAño"><strong>Año</strong></label>
-    <select id="cboAño">
-        <option value="2018">2018</option>
-        <option value="2017">2017</option>
-        <option value="2016">2016</option>
-        <option value="2015">2015</option>
-        <option value="2014">2014</option>
-        <option value="2013">2013</option>
-        <option value="2012">2012</option>
-    </select>
-    <br/>
-    <label for="Institucion"><strong>Institución</strong></label>
-    <input id="Institucion" type="text">
-    <br/>
-    <label for="Lugar"><strong>Lugar</strong></label>
-    <input id="Lugar" type="text">
-    <br/>
-    <button>Enviar</button>
-</form>
-<h4>
-    contacto : gofuentealba@gmail.com
-</h4>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1989</td>
+            <td>IP Diego Portales</td>
+            <td>Concepción</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <td>1992</td>
+            <td>Universidad de Concepcion</td>
+            <td>Concepción</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <td>1998</td>
+            <td>NextU</td>
+            <td>Concepción</td>
+            <td>No</td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>Agregar Estudios</h3>
+    <form>
+        <label for="Año"><strong>Año</strong></label>
+        <select id="Año">
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+        </select>
+        <br/>
+        <label for="Institucion"><strong>Institución</strong></label>
+        <input id="Institucion" type="text">
+        <br/>
+        <label for="Lugar"><strong>Lugar</strong></label>
+        <input id="Lugar" type="text">
+        <br/>
+        <button>Enviar</button>
+    </form>
+    <footer>
+        <h4> contacto : gofuentealba@gmail.com </h4>
+    </footer>
 </body>
 </html>
